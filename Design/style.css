@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background:linear-gradient(rgba(250, 0, 42, 0.918), rgb(255, 0, 157)), 
+    url('jallah.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    width: 100%;
+    height:auto;
+}
+.header{
+    max-width: 100%;
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    
+}
+.name{
+    padding: 20px;
+}
+.name label{
+    font-size: 82px;
+
+    font-family: Krub;
+font-size: 36px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: center;
+}
+.profes{
+    padding: 0 20px 20px 20px ;
+}
+.social{
+    /* background-color: green; */
+    max-width: 22%;
+    margin-left: 40%;
+    padding-bottom: 20px;
+}
+.social ul{
+    list-style: none;
+    
+}
+.social ul li{
+    display: inline-flex;
+}
+.social ul li a{
+    color: white;
+    margin-right:45px;
+    font-size: 20px;
+}
+.about{
+    max-width: 90%;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    height: 30vh;
+    margin-top: 5vh;
+    
+}
+.flexing{
+    max-width: 90%;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    margin-left: 3%;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.profile{
+    background:url('jallah.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 14%;
+    height: 90%;
+    border: 1px solid rgba(128, 128, 128, 0.274) ;
+    /* margin-left: 1%; */
+    border-radius: 10px;
+}
+.description{
+    max-width:83% ;
+    font-size: 22px;
+    margin-top: 9px;
+    color: rgb(119, 118, 118);
+}
+.projects{
+    max-width: 90%;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    height: 40vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .experience{
+    max-width: 90%;
+    margin-left: 5%;
+    background-color: whitesmoke;
+    height: 50vh;
+    margin-top: 5vh;
+    
+  }
+  .experience input{
+    width: 70%;
+    margin-left: 5%;
+    height: 65px;
+    margin: 10px;
+    font-size: 22px;
+    padding-left: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(158, 158, 158, 0.575);
+  }
+  .experience textarea{
+    width: 70%;
+    margin-left: 10%;
+    height: 350px;
+    margin: 10px;
+    font-size: 22px;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(158, 158, 158, 0.575);
+  }
+  .experience button{
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 55px;
+    margin: 10px;
+    width: 170px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    outline: none;
+    border: none;
+  }
